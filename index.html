@@ -27,7 +27,6 @@
 
      <link rel="preload" href="img/logo.webp" as="image">
      <link rel="preload" href="img/banner.webp" as="image">
-     <link rel="preload" href="img/close.png" as="image">
 
     <!-- font -->
 
@@ -47,7 +46,7 @@
         </a>
 
         <div class="banner_texto">
-            <h1>CORTES A LA MODA</h1>
+            <h1><span class="bg"></span>  <span class="c">C</span>ORTES <span class="c">A</span> LA MOD<span class="c">A</span></h1>
             <p>Te Brindamos los Mejores Estilos de Cortes a La Moda</p>
 
             <div class="banner_btn">
@@ -59,19 +58,15 @@
 
         <div class="navegacion">
             <div class="fondo">
-                <div class="icono">
-    
-                </div>
+                <div class="menubar"><div class="bar"></div></div>
             </div>
-            
-            <div class="menu">
-                <div class="item">
-                    <a href="#inicio">INICIO</a>
-                    <a href="#nosotros">SOBRE NOSOTROS</a>
-                    <a href="#servicios">SERVICIOS</a>
-                    <a href="#reseña">RESEÑAS</a>
-                    <a href="#contacto">CONTACTANOS</a>
-                </div>
+
+            <div class="item">
+                <a href="#inicio">INICIO</a>
+                <a href="#nosotros">SOBRE NOSOTROS</a>
+                <a href="#servicios">SERVICIOS</a>
+                <a href="#reseña">RESEÑAS</a>
+                <a href="#contacto">CONTACTANOS</a>
             </div>
         </div>
     </section>
@@ -80,7 +75,7 @@
 
     <section class="facture contenedor" id="nosotros">
         <div class="facture__title">
-            <p>Sobre Nosotros</p>
+            <p>Sobre Nosotro    </p>
             <h2>porque elejirnos</h2>
         </div>
 
@@ -108,9 +103,11 @@
 
             <div class="imagen">
                 <picture>
-                    <source preload="lazy" srcset="img/barber-man.webp" type="image/webp">
-                    <img preload="lazy" src="img/barber-man.jpg" alt="imagen">
+                    <source preload="lazy" srcset="img/img-1.webp" type="image/webp">
+                    <img preload="lazy" src="img/img-1.jpg" alt="imagen">
                 </picture>
+
+                <div class="con"></div>
             </div>
         </div>
     </section>
@@ -246,12 +243,12 @@
                 <h4>Horarios De Atencion</h4>
                 <div class="icon">
                     <i class="fa fa-clock-o"></i>
-                    <p>Lunes a Domingo - 8:30am hasta 9:00pm</p>
+                    <p>Lunes a viernes - 8:30am hasta 9:00pm</p>
                 </div>
 
                 <div class="icon">
                     <i class="fa fa-clock-o"></i>
-                    <p>Lunes a Domingo - 8:30am hasta 9:00pm</p>
+                    <p>Sabado a Domingo - 9:30am hasta 10:00pm</p>
                 </div>
             </div>
 
@@ -299,9 +296,10 @@
 
     <!-- javascript -->
 
+    <script src="js/menu.js"></script>
+
     <script src="js/scrollreveal.js"></script>
 
     <script src="js/modernizr.js"></script>
-    
 </body>
 </html>
